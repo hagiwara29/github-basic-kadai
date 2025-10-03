@@ -1,89 +1,37 @@
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % Hello,world!
-zsh: command not found: Hello,world!
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % こんにちは、世界！
-zsh: command not found: こんにちは、世界！
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git log
-fatal: your current branch 'main' does not have any commits yet
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % 
- *  履歴が復元されました 
-
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git log
-fatal: your current branch 'main' does not have any commits yet
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % cd git_callenge
-cd: no such file or directory: git_callenge
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo "Hello,world!" >> hello_wor
-ld.txt
-dquote> 
-dquote> git commit -m
-dquote> echo "Hello, world!" >> hello_world.txt
-dquote> 
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo "Hello, world!" >> hello_world.txt
-
-dquote> 
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git add hello_world.txt
-git commit -m "Add hello_world.txt with Hello, world!"
-
-dquote> 
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo "Hello, world!" >> hello_world.txt
-git add hello_world.txt
-git commit -m "Add hello_world.txt with Hello, world!"
-
-dquote>  
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % cd git_challenge
-cd: no such file or directory: git_challenge
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % pwd
-/Users/hagiwarayurika/Desktop/git_challenge
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % touch h
+ello_world.txt
 hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % ls
 hello_world.txt
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % cd ~/Desktop/git_challenge
 hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo "Hello, world!" >> hello_world.txt
 
-dquote> git add hello_world.txt
+dquote> 
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo Hello, world! >> hello_world.txt 
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % cat hello_world.txt
 
-dquote>  
+Hello, world!
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git init
+
+Initialized empty Git repository in /Users/hagiwarayurika/git_challenge/.git/
 hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git add hello_world.txt
 
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git commit -m "Add hello_world.txt with Hello, world!"
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git commit -m "Add hello_world.txt with Hello, world! message"
 
-dquote> git log --oneline
+[main (root-commit) a4a6844] Add hello_world.txt with Hello, world! message
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % echo こんにちは、世界! >> hello_world.txt  
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % cat hello_world.txt
 
-dquote> 
+Hello, world!
+こんにちは、世界!
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git add hello_world.txt
+
+hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git commit -m "Add Japanese greeting: こんにちは、世界！"
+
+[main 30a2624] Add Japanese greeting: こんにちは、世界！
+ 1 file changed, 1 insertion(+)
 hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git log --oneline
 
-fatal: your current branch 'main' does not have any commits yet
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git commit -m "hello_world.txtを
-追加"
-[main (root-commit) edcaa5a] hello_world.txtを追加
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 git_challenge/hello_world.txt
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % git log
-commit edcaa5ab80ab2b40cd6c7b31452bd232b1dcd360 (HEAD -> main)
-Author: hagiwara29 <na123ka@gmail.com>
-Date:   Tue Sep 30 19:55:06 2025 +0900
-
-    hello_world.txtを追加
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % history
-  244  git log
-  245  cd git_callenge
-  246  echo "Hello,world >> hello_world.txt\n\ngit commit -m\necho "Hello, world\!" >> hello_world.txt
-  247  echo "Hello, world >> hello_world.txt\n
-  248  git add hello_world.txt\ngit commit -m "Add hello_world.txt with Hello, world\n
-  249  echo "Hello, world >> hello_world.txt\ngit add hello_world.txt\ngit commit -m "Add hello_world.txt with Hello, world\!"\n
-  250  cd git_challenge
-  251  pwd
-  252  ls
-  253  cd ~/Desktop/git_challenge
-  254  echo "Hello, world >> hello_world.txt\n\ngit add hello_world.txt\n
-  255  git add hello_world.txt\n
-  256  git commit -m "Add hello_world.txt with Hello, world\n\ngit log --oneline\n
-  257  git log --oneline\n
-  258  git commit -m "hello_world.txtを追加"
-  259  git log
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % 
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % p;
- *  履歴が復元されました 
-
-hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge %  
- *  履歴が復元されました 
-
+30a2624 (HEAD -> main) Add Japanese greeting: こんにちは、世界！
+a4a6844 Add hello_world.txt with Hello, world! message
 hagiwarayurika@hagiharayurikounoMacBook-Air git_challenge % 
